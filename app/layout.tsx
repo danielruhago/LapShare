@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'LapShare — Verified laptop rentals for USask students',
     description: 'Borrow a verified laptop by the day, week or month, with campus handoff and a refundable deposit.',
-    images: ['/placeholder-logo.png'],
+    images: ['/og-image.png'],
   },
 }
 
