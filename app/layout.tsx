@@ -15,7 +15,7 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: 'LapShare — Verified laptop rentals for USask students',
   description:
-    'A peer-to-peer laptop rental marketplace for university students. Rent a verified student’s spare laptop by the day, week or month, with campus handoff and a refundable deposit.',
+    'Borrow a verified laptop by the day, week or month, with campus handoff and a refundable deposit.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -24,6 +24,11 @@ export const metadata: Metadata = {
       { url: '/icon.svg', type: 'image/svg+xml' },
     ],
     apple: '/apple-icon.png',
+  },
+  openGraph: {
+    title: 'LapShare — Verified laptop rentals for USask students',
+    description: 'Borrow a verified laptop by the day, week or month, with campus handoff and a refundable deposit.',
+    images: ['/placeholder-logo.png'],
   },
 }
 
